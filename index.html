@@ -29,10 +29,7 @@
 
                 <div class="col-md-5 center-item">
                   <div class="input-group number-spinner">
-                    <button
-                      onclick="handlePhoneChange(false)"
-                      class="btn btn-default"
-                    >
+                    <button id="phone-decrement" class="btn btn-default">
                       <i class="fas fa-minus"></i>
                     </button>
                     <input
@@ -41,10 +38,7 @@
                       class="form-control text-center"
                       value="1"
                     />
-                    <button
-                      onclick="handlePhoneChange(true)"
-                      class="btn btn-default"
-                    >
+                    <button id="phone-increment" class="btn btn-default">
                       <i class="fas fa-plus"></i>
                     </button>
                   </div>
@@ -53,7 +47,7 @@
                 </div>
               </div>
             </div>
-
+            <!-- Case Section -->
             <div class="cart-item">
               <div class="row">
                 <div class="col-md-7 center-item mx-auto">
@@ -62,10 +56,7 @@
                 </div>
                 <div class="col-md-5 center-item">
                   <div class="input-group number-spinner">
-                    <button
-                      onclick="handleProductChange(false)"
-                      class="btn btn-default"
-                    >
+                    <button id="case-decrement" class="btn btn-default">
                       <i class="fas fa-minus"></i>
                     </button>
                     <input
@@ -74,14 +65,11 @@
                       class="form-control text-center"
                       value="1"
                     />
-                    <button
-                      onclick="handleProductChange(true)"
-                      class="btn btn-default"
-                    >
+                    <button id="case-increment" class="btn btn-default">
                       <i class="fas fa-plus"></i>
                     </button>
                   </div>
-                  <h5>$<span id="case-total">59</span></h5>
+                  <h5>$<span id="case-total">50</span></h5>
                   <img src="images/remove.png" alt="" class="remove-item" />
                 </div>
               </div>
